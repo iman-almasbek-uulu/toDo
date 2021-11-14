@@ -8,10 +8,6 @@ body {
     width: 100%;
 }
 
-section {
-    background-color: blue;
-}
-
 .main-search {
     display: flex;
     justify-content: center;
@@ -53,7 +49,7 @@ section {
 
 .hero-pos {
     width: 295px;
-    height: 65px;
+    height: 85px;
     background-color: rgb(184, 252, 116);
     margin-bottom: 20px;
     padding: 10px 15px;
@@ -62,6 +58,27 @@ section {
     list-style: none;
 }
 
+/* active */
+
+.active-2 {
+    background-color: rgb(255, 228, 73);
+}
+
+.active-3 {
+    background-color: rgb(179, 169, 169);
+    text-decoration: line-through;
+    color: rgb(71, 71, 71);
+}
+
+.active-4 {
+    background-color: rgb(255, 228, 73);
+}
+
+.active-6 {
+    background-color: rgb(179, 169, 169);
+    text-decoration: line-through;
+    color: rgb(71, 71, 71);
+}
 
 
 .hero-title {
@@ -70,7 +87,8 @@ section {
     align-items: center;
     font-size: 17px;
     font-weight: 700;
-    /* margin-bottom: 3px; */
+    margin-top: 5px;
+    margin-bottom: 12px;
 }
 
 .item-input {
